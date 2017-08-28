@@ -1,0 +1,28 @@
+﻿<Controls:MetroWindow x:Class="Monkey_assistant.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:local="clr-namespace:Monkey_assistant"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="250" Width="400" ResizeMode="NoResize" WindowStartupLocation="CenterScreen">
+    <Grid>
+        <Button Style="{StaticResource AccentedSquareButtonStyle}" Margin="10 20 10 10" 
+                VerticalAlignment="Top" Content="Проверка БД на целостность" 
+                BorderThickness="0" Click="Button_Click" />
+        <Button Style="{StaticResource AccentedSquareButtonStyle}" Margin="10 60 10 10" 
+                VerticalAlignment="Top" Content="Испрвление ошибок в БД" 
+                BorderThickness="0" />
+        <Button Style="{StaticResource AccentedSquareButtonStyle}" Margin="10 100 10 10" 
+                VerticalAlignment="Top" Content="Перейти на SQL Standard" 
+                BorderThickness="0" Click="Button_Click_1" />
+        <Button Style="{StaticResource AccentedSquareButtonStyle}" Margin="10 140 10 10" 
+                VerticalAlignment="Top" Content="Удаление зависшей транзакции" 
+                BorderThickness="0" Click="Button_Click_2" />
+        <Button Style="{StaticResource AccentedSquareButtonStyle}" Margin="10 180 10 10" 
+                VerticalAlignment="Top" Content="О программе" 
+                BorderThickness="0" Click="Button_Click_3" />
+    </Grid>
+</Controls:MetroWindow>
+

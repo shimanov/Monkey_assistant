@@ -1,0 +1,15 @@
+﻿<Controls:MetroWindow x:Class="Monkey_assistant.CheckDb"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        xmlns:gif="http://wpfanimatedgif.codeplex.com"
+        xmlns:local="clr-namespace:Monkey_assistant"
+        mc:Ignorable="d"
+        Title="CheckDb" Height="300" Width="300" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" Loaded="MetroWindow_Loaded">
+    <Grid>
+        <Label Name="OutputLabel"></Label>
+        <Image gif:ImageBehavior.AnimatedSource="Img/Monkey_gif.gif"></Image>
+    </Grid>
+</Controls:MetroWindow>

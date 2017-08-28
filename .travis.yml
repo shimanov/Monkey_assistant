@@ -1,0 +1,4 @@
+language: csharp
+solution: Monkey assistant.sln
+install:
+  - nuget restore Monkey assistant.sln
