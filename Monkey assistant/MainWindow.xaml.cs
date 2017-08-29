@@ -45,5 +45,11 @@ namespace Monkey_assistant
             AboutWindow aboutWindow = new AboutWindow();
             aboutWindow.Show();
         }
+
+        private void Button_Click_4(object sender, RoutedEventArgs e)
+        {
+            RepairDBWindow repair = new RepairDBWindow();
+            repair.Show();
+        }
     }
 }

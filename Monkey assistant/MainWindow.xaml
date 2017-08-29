@@ -10,7 +10,7 @@
     <Grid>
         <Button Style="{StaticResource AccentedSquareButtonStyle}" Margin="10 20 10 10" 
                 VerticalAlignment="Top" Content="Испрвление ошибок в БД" 
-                BorderThickness="0" />
+                BorderThickness="0" Click="Button_Click_4" />
         <Button Style="{StaticResource AccentedSquareButtonStyle}" Margin="10 60 10 10" 
                 VerticalAlignment="Top" Content="Перейти на SQL Standard" 
                 BorderThickness="0" Click="Button_Click_1" />
